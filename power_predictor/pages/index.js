@@ -20,9 +20,22 @@ export default function Home() {
           Electric AI
         </motion.h1>
         <section className='mx-10 grid justify-items-center gap-20 grid-flow-col h-full'>
-          <DetailBox />
-          <DetailBox />
-          <DetailBox />
+          <DetailBox title="About">
+              This AI chatbot analyzes a variety of factors to recommend
+              the best course of action to reduce carbon emissions, such as choosing the best location for solar panels,
+              rerouting energy stores, and optimizing transportation routes.
+          </DetailBox>
+          <DetailBox title="Acceleration">
+              Electric AI can be used to accelerate the adoption of sustainable
+               energy initiatives. With its predictions, implementations of 
+               sustainable energy initiatives can be optimized as best as possible, making it easier
+               for companies, countries, and organizations to adopt these initiatives.
+          </DetailBox>
+          <DetailBox title="Applications">
+              Electric AI can analyze weather patterns to predict when renewable energy generation will be at its peak, 
+              use historic energy usage data to determine periods of time with the highest energy demands, and locate optimal locations
+              for installations of sustainable energy services such as EV charging stations.
+          </DetailBox>
         </section>
       </div>
       <div className={`h-screen overflow-hidden relative ${styles.MainDown}`}>
