@@ -22,8 +22,8 @@ export default function Home() {
         <section className='mx-10 grid justify-items-center gap-20 grid-flow-col h-full'>
           <DetailBox title="About">
               This AI chatbot analyzes a variety of factors to recommend
-              the best course of action to reduce carbon emissions, such as choosing the best location for solar panels,
-              rerouting energy stores, and optimizing transportation routes.
+              the best course of action to reduce carbon emissions, such as choosing the best location for EV chargers,
+              optimizing renewable energy and allocation of resources.
           </DetailBox>
           <DetailBox title="Acceleration">
               Electric AI can be used to accelerate the adoption of sustainable
